@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Form } from 'react-bootstrap'
 import "./Footer.css"
 
 const Footer = () => {
   return (
-    <footer id="footer">
+    <footer id="footer" className='bg-white'>
       <div className='footer-top'>
-        <Container fluid >
+        <Container >
           <Row>
             <Col lg={3} md={6} className="footer-contact">
               <h3>Tempo</h3>
@@ -67,11 +67,49 @@ const Footer = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={4} md={6} className="footer-newsletter"></Col>
+            <Col lg={4} md={6} className="footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p className='mb-2 mt-0'>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+              <Form className='form'>
+                <Form.Control type="email" placeholder="Enter email" />
+                <Form.Control type="sumbit" value="Subscribe" />
+              </Form>
+            </Col>
           </Row>
         </Container>
       </div>
-      <div></div>
+      <div className='d-md-flex py-4 bg-light'>
+        <Container className='d-md-flex py-4' >
+        <div className='me-auto text-center text-md-start'>
+          <div className="copyright">
+            <i className="fa-solid fa-copyright pr-2"></i>
+            Copyright
+            <strong className='px-2'><span>Tempo</span></strong>
+            All right reserved.
+          </div>
+          <div className="credits">
+            Designed by <a href="#">Ed K.</a>
+          </div>
+        </div>
+        <div className='social-links text-center text-md-right pt-3 pt-md-0'>
+          <a href="#">
+              <i className="fa-brands fa-twitter"></i>
+          </a>
+          <a href="#">
+              <i className="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="#">
+              <i className="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#">
+              <i className="fa-brands fa-google"></i>
+          </a>
+          <a href="#">
+              <i className="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+        </Container>
+      </div>
     </footer>
   )
 }

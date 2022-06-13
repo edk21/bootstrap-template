@@ -56,3 +56,57 @@
     display: inline-block;
     line-height: 1;
 }
+
+.form{
+    position: relative;
+    background: #fff;
+    padding: 6px 10px;
+    margin-top: 30px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #f7c2cc;
+}
+
+.form input[type="email"]{
+    border: none;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+    outline: none;
+}
+.form input[type="sumbit"]{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: none;
+    font-size: 15px;
+    padding: 0 22px;
+    background: #e43c5c;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0 2px 15px rgba(0,0,0,.1);
+    width: 120px;
+    cursor: pointer;
+}
+
+.credits{
+    padding-top: 5px;
+    font-size: 13px;
+    color: #444;
+}
+
+.social-links a{
+    font-size: 18px;
+    display: inline-block;
+    background: #e43c5c;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
