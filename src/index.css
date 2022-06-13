@@ -37,3 +37,13 @@ li{
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
+.section-title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media(min-width: 1200px){
+  h3{
+    font-size: 1.73rem;
+  }
+}
