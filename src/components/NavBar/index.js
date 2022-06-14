@@ -2,7 +2,7 @@ import React,{ useState } from 'react'
 import "./Navbar.css"
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
-const NavBar = () => {
+const NavBar = ({place}) => {
     const [caret, setCaret] = useState(false);
     const [navColor, setNavColor] = useState(false);
 
@@ -22,7 +22,7 @@ const NavBar = () => {
 
     
   return (
-    <header id="header" className={navColor ? "header-scrolled" : ""}>
+    <header id="header" className={navColor ? "header-scrolled" : place === "blog" ? "blog-header" : ""}>
         <Navbar expand="lg" className="">
             <Container fluid className='mx-5 d-flex align-items-center justify-content-between'>
                 <Navbar.Brand href="/" className="text-white"><h1>My<span className="text-danger">Logo</span></h1></Navbar.Brand>

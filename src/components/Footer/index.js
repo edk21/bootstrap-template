@@ -88,7 +88,7 @@ const Footer = () => {
             All right reserved.
           </div>
           <div className="credits">
-            Designed by <a href="#">Ed K.</a>
+            Designed by <a href="https://www.linkedin.com/in/edwin-kodjou/">Ed K.</a>
           </div>
         </div>
         <div className='social-links text-center text-md-right pt-3 pt-md-0'>

@@ -11,6 +11,10 @@ header{
     background: rgba(0, 0, 0, 0.9);
     padding: 12px 0;
 }
+.blog-header{
+    background: #000;
+    padding: 10px 0;
+}
 header h1{
     font-size: 30px;
     line-height: 1;
