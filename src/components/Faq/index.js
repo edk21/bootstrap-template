@@ -18,7 +18,7 @@ const Faq = () => {
               {
                 accordionItems.map((item, index) => (
                   <Accordion key={index}>
-                    <Accordion.Item>
+                    <Accordion.Item eventKey={index}>
                       <Accordion.Header>{item.question}</Accordion.Header>
                       <Accordion.Body>{item.answer}</Accordion.Body>
                     </Accordion.Item>

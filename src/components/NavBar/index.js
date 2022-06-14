@@ -35,7 +35,7 @@ const NavBar = () => {
                         <Nav.Link href="#portfolio" className="px-4 text-white link"><p className=''>Portfolio</p></Nav.Link>
                         <Nav.Link href="#team" className="px-4 text-white link"><p className=''>Team</p></Nav.Link>
                         <Nav.Link href="/blog" className="px-4 text-white link"><p className=''>Blog</p></Nav.Link>
-                          <NavDropdown onClick={() => handleCaret()} title={<p className="">Projects <i className={caret ? "fa-solid fa-caret-down" : "fa-solid fa-caret-right"}></i></p>} id="basic-nav-dropdown" className="px-4 text-white link">
+                          <NavDropdown onClick={() => handleCaret()} title={<p className="text-white drop">Projects <i className={caret ? "fa-solid fa-caret-down" : "fa-solid fa-caret-right"}></i></p>} id="basic-nav-dropdown" className="px-4 text-white link">
                             <NavDropdown.Item href="#action/3.1">Project 1</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Another Project</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Something Else</NavDropdown.Item>

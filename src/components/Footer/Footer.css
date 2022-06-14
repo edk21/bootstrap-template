@@ -89,6 +89,9 @@
     width: 120px;
     cursor: pointer;
 }
+.form input[type="sumbit"]:hover{
+    background: #d01d3f;;
+}
 
 .credits{
     padding-top: 5px;
@@ -109,4 +112,7 @@
     width: 36px;
     height: 36px;
     transition: 0.3s;
+}
+.social-links a:hover{
+    background: #d01d3f;;
 }

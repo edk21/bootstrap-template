@@ -37,7 +37,7 @@ header h1{
     position: relative;
 }
 
-.link:hover, .active{
+.link:hover, .drop:hover, .active{
     color: #e43c5c !important;
 }
 
@@ -45,7 +45,6 @@ header h1{
     color: #121112;
     height: 100%;
 }
-
 
 
 @media (min-width: 991px){
@@ -57,7 +56,7 @@ header h1{
         display: inline-block;
         color: white !important;
     }
-    .link:hover, .active{
+    .link:hover, .drop:hover, .active{
         color: white !important;
     }
     .link:after{

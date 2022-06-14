@@ -1,0 +1,53 @@
+.contact .info, .contact .email-form{
+    width: 100% !important;
+    background-color: #fff;
+}
+.email, .phone{
+    margin-top: 40px;
+}
+.contact .info i{
+    font-size: 20px;
+    color: #e43c5c;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fdeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4{
+    padding-left: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #493c3e;
+}
+.contact .info p{
+    padding-left: 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #816a6e;
+}
+.email-form button{
+    background: #e43c5c;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.email-form button{
+    background: #e43c5c;
+    border: 0;
+    padding: 10px 28px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+.email-form button:hover{
+    background: #d01d3f;
+}
