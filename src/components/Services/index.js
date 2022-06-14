@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import ComponentHeader from '../ComponentHeader'
 import "./Services.css"
 
 const servicesItems = [
@@ -25,15 +26,16 @@ const servicesItems = [
     },
 ]
 
+const title = "Services"
+const header = "We Do Offer Awesome"
+const headerSpan = "Services"
+const text = "Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem."
+
 const Services = () => {
     return (
         <section id="services">
             <Container className="servicesContainer">
-                <div className="section-title">
-                    <h2>services</h2>
-                    <h3>We Do Offer Awesome <span>Services</span></h3>
-                    <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-                </div>
+                <ComponentHeader title={title} header={header} headerSpan={headerSpan} text={text} />
                 <Row>
                     {
                         servicesItems.map((item, index) => (

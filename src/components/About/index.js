@@ -1,16 +1,18 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import ComponentHeader from '../ComponentHeader'
 import "./About.css"
+
+const title = "About"
+const header = "Learn More"
+const headerSpan = "About Us"
+const text = "Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem."
 
 const About = () => {
   return (
     <section id="about" className='about'>
         <Container className="aboutContainer">
-            <div className='section-title'>
-              <h2>About</h2>
-              <h3>Learn More <span>About Us</span></h3>
-              <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
-            </div>
+            <ComponentHeader title={title} header={header} text={text} headerSpan={headerSpan} />
             <Row className="content">
               <Col lg={6}>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

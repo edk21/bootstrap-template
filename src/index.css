@@ -41,6 +41,33 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding-bottom: 30px;
 }
+.section-title h2{
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 0;
+    background-color: #fdeff2;
+    color: #e43c5c;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.section-title h3{
+    margin-top: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.section-title span{
+    color: #e43c5c;
+    padding-left: 10px;
+}
+.section-title p{
+    margin: 15px auto 0 auto;
+    font-weight: 600;
+}
 
 @media(min-width: 1200px){
   h3{
