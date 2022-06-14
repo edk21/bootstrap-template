@@ -5,7 +5,7 @@ import Main from "./pages/Main";
 import { Stack } from "react-bootstrap"
 function App() {
   return (
-    <Stack className="mx-5 border d-flex align-items-center justify-content-center">
+    <Stack className="mx-5 d-flex align-items-center justify-content-center">
       <NavBar />  
       <Routes>
         <Route path="/" element={<Main />} />
