@@ -2,6 +2,7 @@
     background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg") center center;
     background-size: cover;
     padding: 60px 0;
+    width: 100vw;
 }
 .cta h3{
     color: #fff;
@@ -30,4 +31,10 @@
 .cta .cta-btn:hover{
     border: 2px solid #e43c5c;
     background-color: #e43c5c;
+}
+
+@media (min-width: 1024px){
+    .cta{
+        background-attachment: fixed;
+    }
 }
