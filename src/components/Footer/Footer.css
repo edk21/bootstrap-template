@@ -60,7 +60,7 @@
 .form{
     position: relative;
     background: #fff;
-    padding: 6px 10px;
+    padding: 4px 8px;
     margin-top: 30px;
     border-radius: 50px;
     text-align: center;
@@ -68,17 +68,20 @@
 }
 
 .form input[type="email"]{
-    border: none;
+    border: none !important;
     padding: 4px 8px;
     width: calc(100% - 100px);
+    height: 100%;
     outline: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
 .form input[type="sumbit"]{
     position: absolute;
     top: 0;
     right: -2px;
     bottom: 0;
-    border: none;
+    border: none !important;
     font-size: 15px;
     padding: 0 22px;
     background: #e43c5c;
@@ -88,6 +91,7 @@
     box-shadow: 0 2px 15px rgba(0,0,0,.1);
     width: 120px;
     cursor: pointer;
+    height: 100%;
 }
 .form input[type="sumbit"]:hover{
     background: #d01d3f;;
